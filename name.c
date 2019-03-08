@@ -1,0 +1,16 @@
+#include<stdio.h>
+main()
+{
+	char name[20];
+	int age=0;
+	char num[10];
+	printf("Enter ur name ");
+	scanf("%s",&name);
+	printf("Enter you age");
+	scanf("%d",&age);
+	printf("Enter your mobile number");
+	scanf("%s",&num);
+	printf("Your name is %s",name);
+	printf("\nYour age is %d",age);
+	printf("\nYour number is %s",num);
+}
